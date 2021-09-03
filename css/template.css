@@ -551,15 +551,18 @@ table td, th {
 
 @media (max-width: 767px) {
   .cg__logoContainer img {
-    margin: auto;
+    margin-left: 5px;
+    width: 65px;
+    height: 65px;
     display: block;
+
   }
 }
 
 @media (max-width: 767px) {
   .cg__logoContainer {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
   }
 }
@@ -799,6 +802,7 @@ table td, th {
 @media (max-width: 767px) {
   .cg__ctaButton {
     width: 60%;
+    display: none;
   }
 }
 
@@ -853,6 +857,8 @@ table td, th {
   display: inline-block;
   height: 22px;
   margin-right: 10px;
+  margin-top: -325px;
+  margin-left: -15px;
   transform: rotate(0deg);
   transition: .2s ease-out;
   cursor: pointer;
@@ -1312,7 +1318,7 @@ table td, th {
 @media (max-width: 767px) {
   .cg__headerNavbar {
     background: #181834;
-    height: auto;
+    height: 60px;
     position: relative;
   }
 }
